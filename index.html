@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="fullscreen">
+      <div class="title">
+        <h1>
+          Find the solution of a <br />
+          <p>Quadratic Equation</p>
+        </h1>
+      </div>
+      <div class="input">
+        <div class="input01 in">
+          <input placeholder="A" type="text" class="xsquare m" />
+          <p>X<sup>2</sup></p>
+        </div>
+        <div id="veOne" class="veone">+</div>
+        <div class="input02 in">
+          <input placeholder="B" type="text" class="x m" />X
+        </div>
+        <div id="veTwo">+</div>
+        <div class="input03 in">
+          <input placeholder="C" type="text" class="c m" />
+        </div>
+        <div>= 0</div>
+      </div>
+      <div class="btns">
+        <button class="clear">Clear</button>
+        <button class="submit">Find</button>
+      </div>
+      <div class="answer">
+        <div class="sub" >
+          <h1 id="outans">
+            X =
+            <p id="xOne">4</p>
+            OR X =
+            <p id="xTwo">4</p>
+          </h1>
+          <h2 id="error">invalid input</h2>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
